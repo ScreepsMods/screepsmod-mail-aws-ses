@@ -1,0 +1,21 @@
+{
+  "name": "screepsmod-mail-aws-ses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/screepsmods/screepsmod-mail-aws-ses",
+  "author": "Adam Shumann <ashumann13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard",
+    "2npm": "publish"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.503.0",
+    "handlebars": "^4.1.2",
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "publish": "^0.6.0",
+    "standard": "^13.1.0"
+  }
+}

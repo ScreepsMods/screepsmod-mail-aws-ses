@@ -1,0 +1,13 @@
+<html>
+  <body>
+    Hello {{ user.username }}! You have {{ notifications.length }} notifications from {{ shard }}:
+    <div style="padding:10px; background-color: silver;">
+    {{#each notifications}}
+      <div style="background-color: white; margin: 5px; padding: 2px 5px">
+        <span style="padding: 2px 5px; margin: 2px; color: white; background: silver">{{this.count}}</span>
+        <span style="{{#if n.type != 'msg'}}color: red;{{/if}}">{{this.message}}</span>
+      </div>
+    {{/each}}
+    </div>
+  </body>
+</html>
