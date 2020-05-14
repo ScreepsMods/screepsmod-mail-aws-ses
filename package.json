@@ -1,6 +1,6 @@
 {
   "name": "screepsmod-mail-aws-ses",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": "https://github.com/screepsmods/screepsmod-mail-aws-ses",
   "author": "Adam Shumann <ashumann13@gmail.com>",
