@@ -10,7 +10,7 @@
     "2npm": "publish"
   },
   "dependencies": {
-    "aws-sdk": "^2.503.0",
+    "aws-sdk": "^2.814.0",
     "handlebars": "^4.1.2",
     "nodemailer": "^6.3.0"
   },
